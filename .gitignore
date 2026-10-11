@@ -1,0 +1,72 @@
+# =========================================================
+# Guitar_Classify — .gitignore (root)
+# =========================================================
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Environment ----------
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# guitar-classify-frontend (Next.js / Node)
+# =========================================================
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# =========================================================
+# guitar-classify-api (Python / TensorFlow)
+# =========================================================
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+venv*/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Dataset เสียงและไฟล์ที่สกัด/เทรนได้ (สร้างใหม่ได้ ไม่ควร commit)
+dataset/
+dataset.zip
+features_cache/
+checkpoints/
+model/
+
+# ไฟล์โมเดล / encoder
+*.h5
+*.keras
+*.pkl
+*.npz
+*.ckpt*
+saved_model/
+
+# =========================================================
+# guitar-classify-backend (Go)
+# =========================================================
+backend.exe
+*.exe
+*.test
+*.out

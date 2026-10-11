@@ -1,0 +1,9 @@
+[submodule "guitar-classify-api"]
+	path = guitar-classify-api
+	url = https://github.com/kimuz57/guitar-classify-api.git
+[submodule "guitar-classify-backend"]
+	path = guitar-classify-backend
+	url = https://github.com/kimuz57/guitar-classify-backend.git
+[submodule "guitar-classify-frontend"]
+	path = guitar-classify-frontend
+	url = https://github.com/kimuz57/guitar-classify-frontend.git
